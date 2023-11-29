@@ -26,32 +26,5 @@ border-radius:30px}
 <input type='submit' value='PATIENT DETAILS'>
 </form>
 </div>
-<%-- <%
-Class.forName("com.mysql.cj.jdbc.Driver");   
-Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/groot","root","grooot");
-          java.sql.Statement st= con.createStatement();
-          String query1="select * from patients " ;
-          ResultSet A1=st.executeQuery(query1);
-          out.print("<h1>"+"PATIENTS"+"</h1>");
-          out.print("<table border=1px>");
-           out.print("<tr>");
-           out.print("<th>"+"Name"+"</th>");
-           out.print("<th>"+"Bloodgroup"+"</th>");
-           out.print("<th>"+"Number"+"</th>");
-           out.print("<th>"+"Location"+"</th>");
-           out.print("</tr>");
-    while(A1.next()){
-    	  out.print("<tr>");
-    	   out.print("<td>"+A1.getString("Name")+"</td>");
-    	   out.print("<td>"+A1.getString("bloodgroup")+"</td>");
-    	   out.print("<td>"+A1.getString("number")+"</td>");
-    	   out.print("<td>"+A1.getString("location")+"</td>");
-    	   out.print("</tr>");        	  
-    }
-    out.print("</table>");
-    
-          
-%> --%>
-
 </body>
 </html>
